@@ -25,3 +25,5 @@ export const companies = [
      nameImg: "/logo5.svg",
    },
  ];
+
+ 
