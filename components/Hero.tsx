@@ -16,12 +16,12 @@ const Hero = () => {
             </span>
           </span>
         </h1>
-        <div className="relative flex lg:hidden flex-1 items-start">
+        <div className="relative flex mt-5 lg:hidden flex-1 items-center mx-auto">
             <Image
-               src={"/difahero2.png"}
+               src={"/hero_difa2.svg"}
                alt="difaillustration"
-               width={1000}
-               height={1000}
+               width={300}
+               height={300}
             />
         </div>
         <p className="regular-16 my-5 text-justify text1 lg:text-left text-gray-30 xl:max-w-[520px]">
@@ -30,25 +30,25 @@ const Hero = () => {
         <div className="flex flex-col w-full gap-3 sm:flex-row">
             <Button 
               type="button" 
-              title="Untuk Disabilitas" 
+              title="Kerjasama Disabilitas" 
               icon="/icon_difa.png"
               variant="btn_green" 
             />
             <Button 
               type="button" 
-              title="Untuk Perusahaan" 
+              title="Kerjasama Perusahaan" 
               icon="/icon_company.png"
               variant="btn_white_text" 
             />
         </div>
       </div>
 
-      <div className="relative lg:flex hidden pr-20 pb-0 flex-1 items-center">
+      <div className="relative lg:flex hidden pb-0 flex-1 items-center">
          <Image
-            src={"/difahero2.png"}
+            src={"/hero_difa2.svg"}
             alt="camping"
-            width={1000}
-            height={1000}
+            width={450}
+            height={450}
          />
       </div>
     </section>
