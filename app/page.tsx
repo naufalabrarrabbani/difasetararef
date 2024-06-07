@@ -2,9 +2,11 @@
 import Image from "next/image";
 import Hero from "@/components/Hero";
 import Benefits from "@/components/Benefits";
+import Lowongan from "@/components/Lowongan";
 import { SectionTitle } from "@/components/SectionTitle";
 import { Reveals } from "@/utils/Reveals";
 import { benefitOne, benefitTwo } from "@/components/data";
+import Fase from "@/components/Fase";
 
 export default function Home() {
   return (
@@ -21,6 +23,7 @@ export default function Home() {
 
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
+      <Fase />
     </main>
   );
 }

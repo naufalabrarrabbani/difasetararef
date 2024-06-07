@@ -24,6 +24,8 @@ body {
     font-family : var(--font-storymaker)
   }
 
+  .cardShadow {box-shadow: 12px 24px 80px rgba(15, 82, 186, 0.06)}
+
   .btn_white { 
     @apply  border-white bg-white px-8 py-3 text-green-50
   }

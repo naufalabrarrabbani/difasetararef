@@ -3,7 +3,6 @@ import Button from './Button'
 import { Poppins } from 'next/font/google';
 import localFont from 'next/font/local';
 import { Reveals } from '@/utils/Reveals';
-import dynamic from "next/dynamic";
 import { useState, useEffect } from 'react'
 
 const Hero = () => {
@@ -11,7 +10,7 @@ const Hero = () => {
     <section className="max-container padding-container flex flex-col gap-0 py-0 md:gap-20 lg:py-10 xl:flex-row">
       <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
         <Reveals>
-          <h1 className= "lg:text-6xl text-[44px] lg:text-left my-3 text-center text1 font-bold">Mari Ciptakan <br />
+          <h1 className= "lg:text-5xl text-3xl lg:text-left my-3 text-center text1 font-bold">Mari Ciptakan <br />
             <span className="text-indigo-300 text2 text-5xl lg:text-6xl font-semibold">Inklusivitas dan Keberagaman<br/>
               <span className="relative inline-block">
                 Bersama Disabilitas

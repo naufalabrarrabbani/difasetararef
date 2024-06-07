@@ -47,7 +47,7 @@ export const Benefits = (props: Readonly<BenefitsProps>) => {
           }`}>
           <div>
             <Reveals>
-              <div className="flex flex-col w-full mt-4">
+              <div className="flex flex-col w-full mt-5">
                 <h3 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-black text1 lg:leading-tight lg:text-4xl">
                   {data.title}
                 </h3>
@@ -59,7 +59,7 @@ export const Benefits = (props: Readonly<BenefitsProps>) => {
             </Reveals>
 
             <Reveals>
-              <div className="w-full mx-auto mt-3">
+              <div className="w-full mx-auto mt-5">
                 {data.bullets.map((item, index) => (
                   <Benefit key={index} title={item.title} icon={item.icon}>
                     {item.desc}
@@ -75,8 +75,8 @@ export const Benefits = (props: Readonly<BenefitsProps>) => {
 
 function Benefit(props: any) {
   return (
-      <div className="flex items-start mt-3 space-x-3">
-        <div className="flex items-center justify-center flex-shrink-0 mt-1 bg-indigo-500 rounded-md w-11 h-11">
+      <div className="flex items-start mt-5 space-x-3">
+        <div className="flex items-center justify-center flex-shrink-0 mt-1 bg-indigo-300 rounded-full w-11 h-11">
           {React.cloneElement(props.icon, {
             className: "w-7 h-7 text-indigo-50",
           })}
