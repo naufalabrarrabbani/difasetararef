@@ -8,12 +8,12 @@ const Fase = () => {
       <div className="text-center section-heading mb-16">
          <Reveals>
             <div className="mb-3 text-3xl font-bold leading-relaxed text-black text1 lg:text-4xl">
-               Fase Program Difasetara 
+               Fase Program <span className='text-indigo-300 text2 text-5xl lg:text-6xl font-semibold'> Difasetara </span> 
             </div>
          </Reveals>
          <Reveals>
             <div className="text-lg font-medium text-black text1">
-               House is comitted to helping its clients to reach their goals
+               Tahapan Program Difasetara dalam membangun masa depan inklusif
             </div>
          </Reveals>
          </div>        

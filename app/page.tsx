@@ -7,6 +7,7 @@ import { SectionTitle } from "@/components/SectionTitle";
 import { Reveals } from "@/utils/Reveals";
 import { benefitOne, benefitTwo } from "@/components/data";
 import Fase from "@/components/Fase";
+import Banner from "@/components/Banner";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
       <Fase />
+      <Banner />
     </main>
   );
 }
