@@ -11,7 +11,7 @@ import {
  import benefitTwoImg from "../public/benefit-two.svg";
  
  const benefitOne = {
-   title: "Kerjasama Perusahaan",
+   title: "Kerja sama Perusahaan",
    desc: "Program Pelatihan dan Konsultasi untuk Meningkatkan Kesadaran dan Pengetahuan Perusahaan Membekali Perusahaan dan Difabel dengan Keterampilan dan Pengetahuan.",
    image: benefitOneImg,
    bullets: [
@@ -34,23 +34,23 @@ import {
  };
  
  const benefitTwo = {
-   title: "Kerjasama Disabilitas",
-   desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+   title: "Kerja sama Disabilitas",
+   desc: "Program pelatihan kerja dan cari lowongan untuk disabilitas. Membekali disabilitas dengan keterampilan dan pengetahuan untuk memasuki dunia kerja",
    image: benefitTwoImg,
    bullets: [
      {
-       title: "Mobile Responsive Template",
-       desc: "Nextly is designed as a mobile first responsive template.",
+       title: "Fitur mencari lowongan.",
+       desc: "Kamu dapat mencari lowongan kerja yang sesuai dengan keahlianmu.",
        icon: <DevicePhoneMobileIcon />,
      },
      {
-       title: "Powered by Next.js & TailwindCSS",
-       desc: "This template is powered by latest technologies and tools.",
+       title: "Pelatihan kerja bersama perusahaan.",
+       desc: "Kamu bisa mengikuti pelatihan kerja bersama perusahaan yang bekerjasama dengan kami.",
        icon: <AdjustmentsHorizontalIcon />,
      },
      {
-       title: "Dark & Light Mode",
-       desc: "Nextly comes with a zero-config light & dark mode. ",
+       title: "Fitur membangun profil",
+       desc: "Kamu bisa membuat profil diri dengan keterampilan dan pengalaman kerjamu.",
        icon: <SunIcon />,
      },
    ],
