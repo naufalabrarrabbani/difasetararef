@@ -2,11 +2,11 @@
 import Image from "next/image";
 import Hero from "@/components/Hero";
 import Benefits from "@/components/Benefits";
-import Lowongan from "@/components/Lowongan";
 import { SectionTitle } from "@/components/SectionTitle";
 import { Reveals } from "@/utils/Reveals";
 import { benefitOne, benefitTwo } from "@/components/data";
 import Fase from "@/components/Fase";
+import Clients from "@/components/Clients";
 import Banner from "@/components/Banner";
 
 export default function Home() {
@@ -25,6 +25,13 @@ export default function Home() {
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
       <Fase />
+      <SectionTitle
+        preTitle="Testimonials"
+        title="Here's what our customers said"
+      >
+        Kami meminta beberapa pendapat dari teman tuli dan difabel lainnya yang telah kami wawancarai.
+      </SectionTitle>
+      <Clients />
       <Banner />
     </main>
   );

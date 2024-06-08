@@ -41,13 +41,13 @@ const Hero = () => {
           <div className="flex flex-col w-full gap-3 sm:flex-row">
               <Button 
                 type="button" 
-                title="Kerja sama Disabilitas" 
+                title="Kerjasama Disabilitas" 
                 icon="/icon_difa.png"
                 variant="btn_green" 
               />
               <Button 
                 type="button" 
-                title="Kerja sama Perusahaan" 
+                title="Kerjasama Perusahaan" 
                 icon="/icon_company.png"
                 variant="btn_white_text" 
               />

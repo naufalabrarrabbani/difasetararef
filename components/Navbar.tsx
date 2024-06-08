@@ -4,6 +4,7 @@ import Button from './Button'
 import Image from "next/image"
 import dynamic from "next/dynamic";
 import { Disclosure } from "@headlessui/react";
+import { ArrowUpRightIcon } from "@heroicons/react/24/solid";
 
 export const Navbar = () => {
   const navigation = [
@@ -81,8 +82,8 @@ export const Navbar = () => {
         <div className="lg:flex lg:items-center lg:justify-center hidden">
          <Button 
             type="button"
-            title="Login"
-            icon="/user.svg"
+            title="Daftar Sekarang"
+            icon="/arrow.svg"
             variant="btn_dark_green"
          />
          </div>
