@@ -8,6 +8,7 @@ import { benefitOne, benefitTwo } from "@/components/data";
 import Fase from "@/components/Fase";
 import Clients from "@/components/Clients";
 import Banner from "@/components/Banner";
+import { Faq } from "@/components/Faq";
 
 export default function Home() {
   return (
@@ -32,6 +33,11 @@ export default function Home() {
         Kami meminta beberapa pendapat dari teman tuli dan difabel lainnya yang telah kami wawancarai.
       </SectionTitle>
       <Clients />
+      <SectionTitle preTitle="FAQ" title="Frequently Asked Questions">
+        Answer your customers possible questions here, it will increase the
+        conversion rate as well as support or chat requests.
+      </SectionTitle>
+      <Faq />
       <Banner />
     </main>
   );
