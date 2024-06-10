@@ -3,6 +3,7 @@ import Button from './Button'
 import { Poppins } from 'next/font/google';
 import localFont from 'next/font/local';
 import { Reveals } from '@/utils/Reveals';
+import Link from 'next/link';
 import { useState, useEffect } from 'react'
 
 const Hero = () => {
@@ -38,19 +39,23 @@ const Hero = () => {
         </Reveals>
 
         <Reveals>
-          <div className="flex flex-col w-full gap-3 sm:flex-row">
-              <Button 
-                type="button" 
-                title="Kerjasama Disabilitas" 
-                icon="/icon_difa.png"
-                variant="btn_green" 
-              />
-              <Button 
-                type="button" 
-                title="Kerjasama Perusahaan" 
-                icon="/icon_company.png"
-                variant="btn_white_text" 
-              />
+          <div className="flex flex-col w-full mx-auto items-center gap-3 sm:flex-row">
+            <Link href="#Benefit2">
+                <Button 
+                  type="button" 
+                  title="Kerjasama Disabilitas" 
+                  icon="/icon_difa.png"
+                  variant="btn_green" 
+                />
+            </Link>
+            <Link href="#Benefit1">
+                <Button 
+                  type="button" 
+                  title="Kerjasama Perusahaan" 
+                  icon="/icon_company.png"
+                  variant="btn_white_text" 
+                />
+            </Link>
           </div>
         </Reveals>
       </div>

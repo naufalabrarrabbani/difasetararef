@@ -8,11 +8,10 @@ import { ArrowUpRightIcon } from "@heroicons/react/24/solid";
 
 export const Navbar = () => {
   const navigation = [
-    "Product",
-    "Features",
-    "Pricing",
-    "Company",
-    "Blog",
+    "Produk",
+    "Komunitas",
+    "Tim Kami",
+    "Testimoni",
   ];
 
   return (
@@ -52,13 +51,18 @@ export const Navbar = () => {
                 <Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
                   <>
                     {navigation.map((item, index) => (
-                      <Link key={index} href="/" className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none">
+                      <Link key={index} href="/" className="w-full px-4 py-2 -ml-4 text-black rounded-md hover:text-indigo-500 focus:text-indigo-500 focus:outline-none">
                           {item}
                       </Link>
                     ))}
-                    <Link href="/" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">         
-                        Get Started
-                    </Link>
+                    <a href="https://bit.ly/ProgramDifaSetara" className="w-full flex items-center mx-auto" target="_blank" rel="noopener noreferrer">
+                      <Button 
+                        type="button"
+                        title="Daftar Sekarang"
+                        icon="/arrow.svg"
+                        variant="btn_dark_green"
+                      />
+                    </a>
                   </>
                 </Disclosure.Panel>
               </div>
@@ -80,13 +84,15 @@ export const Navbar = () => {
         </div>
 
         <div className="lg:flex lg:items-center lg:justify-center hidden">
-         <Button 
-            type="button"
-            title="Daftar Sekarang"
-            icon="/arrow.svg"
-            variant="btn_dark_green"
-         />
-         </div>
+          <a href="https://bit.ly/ProgramDifaSetara" target="_blank" rel="noopener noreferrer">
+            <Button 
+              type="button"
+              title="Daftar Sekarang"
+              icon="/arrow.svg"
+              variant="btn_dark_green"
+            />
+          </a>
+        </div>
       </nav>
   );
 }

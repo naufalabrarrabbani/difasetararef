@@ -27,15 +27,13 @@ export default function Home() {
       <Benefits imgPos="right" data={benefitTwo} />
       <Fase />
       <SectionTitle
-        preTitle="Testimonials"
-        title="Here's what our customers said"
+        title="Testimoni"
       >
         Kami meminta beberapa pendapat dari teman tuli dan difabel lainnya yang telah kami wawancarai.
       </SectionTitle>
       <Clients />
-      <SectionTitle preTitle="FAQ" title="Frequently Asked Questions">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
+      <SectionTitle title="Pertanyaan yang sering diajukan">
+      Ini adalah beberapa pertanyaan yang sering ditanyakan kepada kami. Jika kamu memiliki pertanyaan lain, kamu bisa menghubungi kami melalui email
       </SectionTitle>
       <Faq />
       <Banner />
