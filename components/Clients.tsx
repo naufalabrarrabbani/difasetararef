@@ -29,8 +29,8 @@ const testimonials = [
    {
      quote:
        "program ini cukup menarik, karena membuat inovasi yg inklusif ini bisa membangun peluang yang bagus bagi penyandang disabilitas, pada dasarnya setiap yg berjiwa pasti membutuhkan biaya hidup, program ini sangat membantu disabilitas yang memang membutuhkan dan pastinya dengan kemampuan yang dibutuhkan",
-     name: "Herman Melville",
-     title: "Moby-Dick",
+     name: "Herman",
+     title: "Disabilitas Tunawicara",
    },
  ];
 

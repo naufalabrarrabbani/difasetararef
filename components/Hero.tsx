@@ -24,7 +24,7 @@ const Hero = () => {
         <div className="relative flex mt-5 lg:hidden flex-1 items-center mx-auto">
           <Reveals>
             <Image
-                src={"/hero_difa2.svg"}
+                src={"/benefit-one.svg"}
                 alt="difaillustration"
                 width={300}
                 height={300}
@@ -61,12 +61,12 @@ const Hero = () => {
       </div>
 
       <Reveals>
-        <div className="relative lg:flex hidden pb-0 pr-20 flex-1 items-center">
+        <div className="relative lg:flex hidden pb-0 pr-0 flex-1 items-center">
           <Image
-              src={"/hero_difa2.svg"}
+              src={"/benefit-one.svg"}
               alt="hero difa"
-              width={450}
-              height={450}
+              width={550}
+              height={550}
           />
         </div>
       </Reveals>
