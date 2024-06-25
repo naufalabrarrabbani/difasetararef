@@ -9,6 +9,7 @@ import Fase from "@/components/Fase";
 import Clients from "@/components/Clients";
 import Banner from "@/components/Banner";
 import { Faq } from "@/components/Faq";
+import Lowongan from "@/components/Lowongan";
 
 export default function Home() {
   return (
@@ -26,16 +27,12 @@ export default function Home() {
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
       <Fase />
-      <SectionTitle
-        title="Testimoni"
-      >
-        Kami meminta beberapa pendapat dari teman tuli dan difabel lainnya yang telah kami wawancarai.
-      </SectionTitle>
       <Clients />
       <SectionTitle title="Pertanyaan yang sering diajukan">
       Ini adalah beberapa pertanyaan yang sering ditanyakan kepada kami. Jika kamu memiliki pertanyaan lain, kamu bisa menghubungi kami melalui email
       </SectionTitle>
       <Faq />
+      <Lowongan />
       <Banner />
     </main>
   );

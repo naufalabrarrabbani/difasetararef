@@ -8,7 +8,7 @@ import { FlipWords } from "@/components/ui/FlipWords";
 const Banner = () => {
   const words = ["Inklusivitas", "Keberagaman", "Kesetaraan", "Aksesibilitas"];
   return (
-   <div className="flex items-center justify-center mt-5 lg:mb-20 mb-10 lg:mt-10 p-5 min-w-screen">
+   <div id="komunitas" className="flex items-center justify-center mt-5 lg:mb-20 mb-10 lg:mt-10 p-5 min-w-screen">
       <div
          className="relative flex flex-col items-center w-full max-w-6xl px-4 py-8 mx-auto text-center rounded-[20px] shadow-2xl lg:block lg:bg-[url(/bg-banner.svg)] bg-[url(/bgbannermd.svg)] bg-no-repeat bg-cover sm:px-6 md:pb-0 md:pt-12 lg:px-12 lg:py-12">
          <h2

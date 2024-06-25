@@ -38,6 +38,10 @@ const Clients = () => {
   return (
    <section id='testimonials' className="px-6 lg:py-5">
       <div className="flex flex-col items-center max-lg:mt-10">
+        <h1 className='max-w-2xl text1 mt-3 text-3x items-center mx-auto font-bold text-center leading-snug tracking-tight text-indigo-300 lg:leading-tight text-3xl lg:text-4xl'>
+          Testimonial
+        </h1>
+        <p className='max-w-2xl text1 text-center py-4 text-lg leading-normal text-black lg:text-xl xl:text-xl'>Kami meminta beberapa pendapat dari teman tuli dan difabel lainnya yang telah kami wawancarai.</p>
         <div
           className="h-auto rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden"
         >
