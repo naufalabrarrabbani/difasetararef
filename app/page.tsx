@@ -10,6 +10,7 @@ import Clients from "@/components/Clients";
 import Banner from "@/components/Banner";
 import { Faq } from "@/components/Faq";
 import Lowongan from "@/components/Lowongan";
+import GetApp from "@/components/GetApp";
 
 export default function Home() {
   return (
@@ -34,6 +35,7 @@ export default function Home() {
       <Faq />
       <Lowongan />
       <Banner />
+      <GetApp />
     </main>
   );
 }
