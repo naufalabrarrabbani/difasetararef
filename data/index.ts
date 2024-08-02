@@ -58,6 +58,6 @@ export const companies = [
      name: "docker.",
      nameImg: "/logo5.svg",
    },
- ];
+];
 
  
